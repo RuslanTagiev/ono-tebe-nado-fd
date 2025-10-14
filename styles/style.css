@@ -1,1 +1,99 @@
 /* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+}
+.header__links-list {
+  display: flex;
+  gap: 50px;
+  list-style: circle;
+}
+
+
+.header__logo-image {
+width: 148px;
+height: 105px;
+}
+
+.header__logo-image {
+  display: block;
+}
+
+.address {
+all: unset;
+ width: 240px;
+ height: 98px;
+ justify-self: end;
+ display: flex;
+ flex-direction: column;
+ align-items: self-start;
+}
+
+.cover {
+  width: 1100px;
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-image: rgba(0, 0, 0, 1);
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.cover__title {
+display: block;
+height: 115px;
+color: rgba(255, 255, 255, 1);
+font-family: Raleway;
+font-size: 100px;
+font-weight: 700;
+line-height: 117px;
+letter-spacing: 30%;
+text-transform: uppercase;
+}
+
+.accent-span-left {
+width: 286px;
+text-align: left;
+}
+
+.accent-span-center {
+width: 286px;
+text-align: center;
+}
+
+.accent-span-right {
+width: 286px;
+text-align: right;
+}
+
+.lots {
+  display: grid;
+  
+}
+
+.lots-film {
+  background-image: url(../images/card-lot-01.jpg);
+  width: 334px;
+  height: 596px;
+  background: rgba(0, 0, 0, 0.6);
+   background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.lots-book {
+  background-image: url(../images/card-lot-01.jpg);
+  width: 334px;
+  height: 596px;
+  background: rgba(0, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.lots-paint {
+  background-image: url(../images/card-lot-01.jpg);
+  width: 334px;
+  height: 596px;
+  background: rgba(0, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
