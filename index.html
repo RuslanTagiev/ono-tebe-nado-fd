@@ -8,32 +8,22 @@
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-
-
-
   </head>
 
   <body>
-
     <header class="header">
-
       <nav class="header__menu">
-
         <ul class="header__links-list">
-
-          <li class="header__links-list-item">
-             <a class="header__link header__link_active header__links-list-item_no-bullit">
-              Главная</a>
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+             <a class="header__link header__link_active">
+              главная</a>
           </li>
-
           <li class="header__links-list-item">
              <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
-
           <li class="header__links-list-item">
              <a class="header__link" href="#0">об аукционе</a>
           </li>
-          
         </ul>
 
       </nav>
@@ -53,21 +43,19 @@
     <main>
        
       <section class="cover">  <!-- СЕКЦИЯ ОНО ТЕБЕ НАДО -->
-        <div class="image-container">
-          <img src="images/cover.jpg" alt="абстрактный фон">
-     <div class="overlay">
+      
+     <div class="overlay"></div>
      
-
            <h1 class="cover__title aligned-text">
-          <span class="aligned-text_left letter-spacing-extended">ОНО</span>
-          <span class="aligned-text_center letter-spacing-extended">ТЕБЕ</span>
-          <span class="aligned-text_right letter-spacing-extended">НАДО</span>
+          <span class="aligned-text_left">ОНО</span>
+          <span class="aligned-text_center">ТЕБЕ</span>
+          <span class="aligned-text_right">НАДО</span>
         </h1>
          
-        <div class="cover__description">
+        <div class=".description cover__description">
           
           <p class="cover__description-text">
-            Аукцион вещей, вкоторые никто не верил
+            Аукцион вещей, в которые никто не верил
           </p>
 
           <button class="bet-button"> 
@@ -75,21 +63,13 @@
           </button>
         </div>
         </div>
-        </div>
-       
       </section>
      
-
-
-
       <section class="lots">  <!-- СЕКЦИЯ с лотами-->
-
         <h2 class="lots__heading">
           ЛОТЫ
         </h2>
-     
         <ul class="lots__card-list">
-           
           <li class="lots__card-list-item"> <!-- карточка-фильм -->
           <a href="#0"></a>
                 <article class="card card_type_film">
@@ -99,10 +79,7 @@
                     <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, 
                       если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                     </p>
-                
-                 
                 </article>
-            
           </li>
 
            <li class="lots__card-list-item "><!-- карточка-книга -->
@@ -120,8 +97,8 @@
                       Сколько бы вы поставили на «Улисса» Джеймса Джойса?
                     </p>
                 </article>
-          
           </li>
+
 
            <li class="lots__card-list-item"> <!-- карточка-картина -->
              <a href="#0"></a>
@@ -135,38 +112,34 @@
                       из революционных работ Кандинского?
                     </p>
                 </article>
-          
           </li>
-          
         </ul>
         
 
-        <a href="#0" class="loots__look-more-link">посмотреть больше</a>
-        
+        <a href="#0" class="loots__look-more-link">
+          <div class="see__more"> посмотреть больше
+          </a>
+            </div>
       </section>
 
       <section class="about">  <!-- СЕКЦИЯ ИНФО ОБ АУКЦИОНЕ -->
-
         <div class="about__column">  <!--  -->
           <div class="about__logo">
-     
         <img class="about__logo-image" 
         src="./images/logo-white.svg" 
         alt="белый логотип проекта">
-    
       </div>
 
         </div>
         <div class="about__column">
             <h2 class="about__title"> ОБ АУКЦИОНЕ</h2>
         <div class="text__block">
-        <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
+        <p class="about__text-start">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
           Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен 
           дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? 
           Кому нужны все эти странные вещи, созданные любителями?
         </p>
-        
-          <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. 
+          <p class="about__text-end">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. 
             В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались 
             просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, 
             сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи 
@@ -174,9 +147,7 @@
           </p>  
           </div>       
         </div>
-        
       </section>
-
     </main>
 
     <footer class="footer">
@@ -188,15 +159,12 @@
        
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-
           <li class="footer__menu-list-item footer__links-list-item_no-bulit">
-             <a class="footer__menu-link footer__menu-link_active">Главная</a>
+             <a class="footer__menu-link footer__menu-link_active">главная</a>
           </li>
-
           <li class="footer__menu-list-item">
              <a class="footer__menu-link" href="#0">посмотреть лоты</a>
           </li>
-
           <li class="footer__menu-list-item">
              <a class="footer__menu-link" href="#0">об аукционе</a>
           </li>
@@ -222,11 +190,8 @@
       src="./images/pinterest.svg"
       alt="логотип пинтерест">
        </li>
-
       </a>
      </ul>
     </footer>
-
   </body>
-
 </html>
