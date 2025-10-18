@@ -69,7 +69,6 @@
   min-height: 757px;
   position: relative;
   background-repeat: no-repeat;
-  min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -131,7 +130,6 @@
   align-items: center;
   box-sizing: border-box;
   padding-bottom: 49px;
-  box-sizing: border-box;
 }
 
 .cover__description-text {
