@@ -5,13 +5,13 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 90px 50px 97px 44px;
+  padding: 90px 50px 93px 44px;
   width: 1100px;
 }
 
 .header__menu {
   display: flex;
-  padding-right: 10px;
+  padding-left: 3px;
 }
 
 .header__links-list-item_no-bullit {
@@ -25,22 +25,23 @@
   font-weight: 400;
   line-height: 100%;
   text-align: left;
-  margin: 5px;
-}
-
-.header__logo {
-  display: block;
-  width: 148px;
-  height: 105px;
-  padding-top: 2px;
-  padding-left: 10px;
+  margin: 4px;
+  text-decoration-thickness: 1px;
 }
 
 .header__links-list {
   display: flex;
   gap: 25px;
   list-style: circle;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 110px;
+  padding-top: 2px;
+  padding-left: 10px;
 }
 
 .address {
@@ -49,7 +50,8 @@
   display: flex;
   flex-direction: column;
   align-items: self-start;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
 
 .header__address {
@@ -110,7 +112,7 @@
 .aligned-text_center {
   text-align: center;
   padding-left: 32px;
-  padding-top: 18px;
+  padding-top: 17.5px;
   letter-spacing: 30px;
 }
 
@@ -138,15 +140,15 @@
   text-align: left;
   text-transform: uppercase;
   z-index: 1;
-  margin-left: 50px;
-  word-spacing: 19px;
+  margin-left: 51px;
+  word-spacing: 18.5px;
 }
 
 .bet-button {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 1);
   width: 256px;
-  height: 51px;
+  height: 50px;
   color: rgba(255, 255, 255, 1);
   font-family: Raleway, sans-serif;
   font-size: 22px;
@@ -156,6 +158,7 @@
   text-transform: uppercase;
   background-color: transparent;
   margin-left: 106px;
+  z-index: 1;
 }
 
 /* секция с лотами */
@@ -209,8 +212,8 @@
 }
 
 .card__link {
-   text-decoration: none;
-   display: flex;
+  text-decoration: none;
+  display: flex;
 }
 
 .card_type_film {
@@ -239,15 +242,15 @@
   align-self: center;
   padding-top: 48px;
   z-index: 1;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
 }
 
 .card__text {
   color: rgba(255, 255, 255, 1);
   font-family: Raleway, sans-serif;
   font-size: 20px;
-   width: 254px;
-   line-height: 24px;
+  width: 254px;
+  line-height: 24px;
   left: 40px;
   right: 40px;
   bottom: 48px;
@@ -256,7 +259,6 @@
   align-self: center;
   padding-bottom: 48px;
   margin-top: auto;
-
 }
 
 .loots__look-more-link {
@@ -338,7 +340,6 @@
 /* футер */
 .footer {
   display: grid;
-  width: 1100px;
   grid-template-columns: 1fr min-content 1fr;
   margin-top: 182px;
 }
